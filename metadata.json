@@ -1,0 +1,40 @@
+{
+  "name": "davidb-acme",
+  "version": "0.1.0",
+  "author": "David Barbion",
+  "summary": "Puppet Let's encrypt ACME tiny module",
+  "license": "MIT",
+  "source": "https://github.com/david-barbion/davidb-acme.git",
+  "project_page": "http://github.com/david-barbion/davidb-acme",
+  "issues_url": "https://github.com/david-barbion/daidb-acme/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.2.0 <5.0.0"},
+    {"name":"maestrodev/wget","version_requirement":">= 1.5.7"},
+    {"name":"camptocamp/openssl","version_requirement":">= 1.7.0"}
+  ],
+  "data_provider": null,
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.10",
+        "16.04",
+        "15.10",
+        "15.04",
+      ]
+    }
+  ]
+}
